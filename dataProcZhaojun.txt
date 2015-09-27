@@ -1,0 +1,30 @@
+t) 1 %{nombre pour convertir le temps de min en s ou l'inverse}
+60
+t) 2 %{nombre pour convertir la contrainte de MPa en Pa ou l'inverse}
+1e6
+t) 3 %{nombre de phase dans le systeme}
+2
+t) 4 %{nombre de noeuds de temps necessaire,t,t-1,t-2...}
+2
+t) 5 %{nombre pour decaler le zero du temps dans les datas deux chiffres} 
+0
+t) 6 %{nombre de ligne dans le fichier experimental}
+259
+t) 7 %indique si l'oxydation est externe=1 ou interne=2
+1
+t) 8 %nombre de parametres optimiser dont 2 sont vraiment optimise; 1, 2 (D et J) ou 3 (N et J) ou 4 (dont les 2 J) ou 5 (D et les 2J) ou 6 (D et Jm)
+2
+t) 9 %temps de debut en min
+0
+t) 10 %temps de fin en min
+187.5
+t) 11 %nombre de noeud de temps
+100
+t) 12 vitesse de refroidissement en degree/s 500/60 ou 80/60
+8
+t) 13 temperature du pallier de debut en degree
+1000
+t) 14 temperature du pallier de fin endegree
+1000
+t) 15 temps de changement de temperature en s
+12000
